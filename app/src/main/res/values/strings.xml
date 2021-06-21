@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentHobby</string>
+    <string name="fragment_1">ROUTINE</string>
+    <string name="fragment_2">HOBBIES</string>
+    <string name="my_routines">My Routines with Images</string>
+    <string name="my_hobbies">My Hobbies with Images</string>
+</resources>

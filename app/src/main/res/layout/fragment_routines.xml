@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="36dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text="@string/my_routines"
+            android:textSize="26sp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgRoutines1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_illustration_01"
+            android:layout_marginBottom="30dp"/>
+
+        <ImageView
+            android:id="@+id/imgRoutines2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_illustration_04"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="30dp"/>
+
+        <ImageView
+            android:id="@+id/imgRoutines3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_illustration_10"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="30dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
